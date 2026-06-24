@@ -3,7 +3,7 @@
 A simple blockchain project built using JavaScript where each expense becomes a block.
 Each block contains the amount, note, previous hash, and its own hash — forming a chain.
 
-## Features
+##Features
 - Beginner friendly (no Solidity / no MetaMask)
 - Shows how blockchain links blocks using hashing
 - No backend or database
