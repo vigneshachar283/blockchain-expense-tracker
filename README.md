@@ -10,4 +10,4 @@ Each block contains the amount, note, previous hash, and its own hash — formin
 
 ## Tech Used
 - JavaScript
-- crypto-js (for hashing)
+- crypto-js (for hashing)  
