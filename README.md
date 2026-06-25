@@ -8,6 +8,6 @@ Each block contains the amount, note, previous hash, and its own hash — formin
 - Shows how blockchain links blocks using hashing
 - No backend or database
 
-## Tech Used
+##  Tech Used
 - JavaScript
 - crypto-js (for hashing)  
