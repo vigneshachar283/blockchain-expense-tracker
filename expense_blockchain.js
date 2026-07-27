@@ -1,4 +1,3 @@
-
 const crypto = require("crypto-js"); 
 
 class Block {
