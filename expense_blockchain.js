@@ -1,4 +1,4 @@
-// Simple Expense Tracker Blockchain using JavaScript (Beginner Friendly)
+
 const crypto = require("crypto-js"); 
 
 class Block {
