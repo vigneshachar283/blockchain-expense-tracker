@@ -44,7 +44,6 @@ class ExpenseBlockchain {
   }
 }
 
-// Example
 let expenses = new ExpenseBlockchain();
 expenses.addExpense(200, "Food");
 expenses.addExpense(100, "Travel");
