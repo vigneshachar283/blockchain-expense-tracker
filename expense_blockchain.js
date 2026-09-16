@@ -42,7 +42,6 @@ class ExpenseBlockchain {
     return this.chain;
   }
 }
-
 let expenses = new ExpenseBlockchain();
 expenses.addExpense(200, "Food");
 expenses.addExpense(100, "Travel");
