@@ -1,5 +1,4 @@
 const crypto = require("crypto-js"); 
-
 class Block {
   constructor(index, amount, note, previousHash = "") {
     this.index = index;
