@@ -38,7 +38,7 @@ class ExpenseBlockchain {
     this.chain.push(newBlock);
   }
 
-  showExpenses() {
+showExpenses() {
     return this.chain;
   }
 }
