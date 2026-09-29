@@ -28,7 +28,7 @@ class ExpenseBlockchain {
     return this.chain[this.chain.length - 1];
   }
 
-  addExpense(amount, note) {
+addExpense(amount, note) {
     const newBlock = new Block(
       this.chain.length,
       amount,
