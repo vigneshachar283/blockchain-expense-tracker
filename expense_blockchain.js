@@ -37,7 +37,6 @@ addExpense(amount, note) {
     );
     this.chain.push(newBlock);
   }
-
 showExpenses() {
     return this.chain;
   }
