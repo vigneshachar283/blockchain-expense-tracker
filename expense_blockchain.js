@@ -14,7 +14,6 @@ calculateHash() {
     ).toString();
   }
 }
-
 class ExpenseBlockchain {
   constructor() {
     this.chain = [this.createGenesisBlock()];
