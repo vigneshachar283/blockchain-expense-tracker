@@ -8,7 +8,7 @@ class Block {
     this.hash = this.calculateHash();
   }
 
-  calculateHash() {
+calculateHash() {
     return crypto.SHA256(
       this.index + this.amount + this.note + this.previousHash
     ).toString();
