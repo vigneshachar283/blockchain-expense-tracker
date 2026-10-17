@@ -7,7 +7,6 @@ class Block {
     this.previousHash = previousHash;
     this.hash = this.calculateHash();
   }
-
 calculateHash() {
     return crypto.SHA256(
       this.index + this.amount + this.note + this.previousHash
