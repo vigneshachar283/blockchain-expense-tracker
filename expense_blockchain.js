@@ -22,7 +22,7 @@ createGenesisBlock() {
     return new Block(0, 0, "Genesis Block", "0");
   }
 
-  latestBlock() {
+latestBlock() {
     return this.chain[this.chain.length - 1];
   }
 addExpense(amount, note) {
