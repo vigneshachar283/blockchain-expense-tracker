@@ -18,7 +18,7 @@ class ExpenseBlockchain {
     this.chain = [this.createGenesisBlock()];
   }
 
-  createGenesisBlock() {
+createGenesisBlock() {
     return new Block(0, 0, "Genesis Block", "0");
   }
 
