@@ -42,5 +42,4 @@ let expenses = new ExpenseBlockchain();
 expenses.addExpense(200, "Food");
 expenses.addExpense(100, "Travel");
 expenses.addExpense(300, "Shopping");
-
 console.log(JSON.stringify(expenses.showExpenses(), null, 2));
