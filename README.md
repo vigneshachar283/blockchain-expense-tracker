@@ -13,3 +13,4 @@ Each block contains the amount, note, previous hash, and its own hash — formin
 - crypto-js (for hashing)  
 
 
+
